@@ -14,6 +14,7 @@ var guesses = 0;
 var isSunk = false;
 
 while(isSunk == false){
+	//input from the player
 	guess = prompt("Ready, aim, fire! (enter a number 0-6): ");
 	//boolean OR operator(||)
 	if(guess < 0 || guess > 6){
