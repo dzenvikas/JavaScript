@@ -7,13 +7,19 @@ var scores = [60, 50, 60, 58, 54, 54,
 
 
 // print like 'Bubbles solution #0 score: 60'
-var output;
-i = 0;
-while (i < scores.length) {
-	output = ("Bubbles solution #" + i + " score: " + scores[i]);
+// var output;
+// i = 0;
+// while (i < scores.length) {
+// 	output = ("Bubbles solution #" + i + " score: " + scores[i]);
+// 	console.log(output);
+// 	i += 1;
+// }
+
+// using for loop instead of while loop
+for (var i = 0; i < scores.length; i++){
+	output = "Bubbles solution #" + i + " score: " + scores[i];
 	console.log(output);
-	i += 1;
-};
+}
 
 // total no. of bubble tests
 console.log("Bubbles tests:" + scores.length);

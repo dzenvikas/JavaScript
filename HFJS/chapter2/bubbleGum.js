@@ -12,7 +12,8 @@ var hasBubbleGum = [false, false, false, true];
 // }
 
 // using for loop instead of while loop
-for(var i = 0; i < hasBubbleGum.length; i = i + 1){
+// also using post-incrementation
+for(var i = 0; i < hasBubbleGum.length; i++){
 	if(hasBubbleGum[i]){
 		console.log(products[i] + " contains bubble gum");
 	}
