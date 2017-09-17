@@ -25,5 +25,11 @@ for (var i = 0; i < scores.length; i++){
 console.log("Bubbles tests:" + scores.length);
 
 // highest bubbleSolution score
-
+var highestScore = 0;
+for(var i = 0; i < scores.length; i++){
+	if( highestScore < scores[i]){
+		highestScore = scores[i];
+	}
+}
+console.log("Highest bubble score: " + highestScore);
 // solutions with highest score
