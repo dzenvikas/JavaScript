@@ -32,4 +32,12 @@ for(var i = 0; i < scores.length; i++){
 	}
 }
 console.log("Highest bubble score: " + highestScore);
+
 // solutions with highest score
+var bestSolutions = [];
+for(var i = 0; i < scores.length; i++){
+	if(scores[i] == highestScore){
+		bestSolutions.push(i);
+	}
+}
+console.log("Solutions with the highest score: " + bestSolutions);
