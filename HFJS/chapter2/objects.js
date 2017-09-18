@@ -10,7 +10,7 @@ var chevy = {
 
 // another object
 var caddi = {
-	make: "GM,
+	make: "GM",
 	model: "Cadillac",
 	year: 1955,
 	color: "tan",
