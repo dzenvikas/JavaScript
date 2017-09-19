@@ -36,6 +36,7 @@ if(dog.age > 20){
 
 var speak = dog.name + " says " + bark + " when he wants to " + dog.activity;
 console.log(speak);
+console.log(dog);
 
 
 

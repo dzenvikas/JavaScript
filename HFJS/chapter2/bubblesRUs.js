@@ -84,16 +84,6 @@ function getHighestScoreSolutions(scores, highestScore){
 // function invoke
 var highestScoreSolutions = getHighestScoreSolutions(scores, highestScore);
 
-
-
-
-
-
-
-
-
-
-
 // best solution
 function mostCostEffectiveSolution(highestScoreSolutions, costs){
 	var bestSolution = 100;
@@ -108,17 +98,6 @@ function mostCostEffectiveSolution(highestScoreSolutions, costs){
 }
 // function invoke
 var bestSolution = mostCostEffectiveSolution(highestScoreSolutions, costs);
-
-
-
-
-
-
-
-
-
-
-
 
 
 // printing in console
