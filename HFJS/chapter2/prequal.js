@@ -17,7 +17,10 @@ var fiat = {
 	color: "Medium Blue",
 	passangers: 2,
 	convertible: false,
-	milage: 88000
+	milage: 88000,
+	drive: function(){
+		alert("Zoom zoom!");
+	}
 };
 
 // cadillac car object
@@ -69,3 +72,5 @@ if(worthALook){
 } else{
 	console.log("You should really pass on the " + fiat.make + " " + fiat.model);
 }
+
+fiat.drive();
