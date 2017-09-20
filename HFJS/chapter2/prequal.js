@@ -18,8 +18,21 @@ var fiat = {
 	passangers: 2,
 	convertible: false,
 	milage: 88000,
+	started: false,
+
+	start: function(){
+		this.started = true;
+	},
+	stop: function(){
+		this.started = false;
+	},
+	
 	drive: function(){
-		alert("Zoom zoom!");
+		if(this.started){
+			alert("Zoom zoom!");
+		} else{
+			alert("You need to start the engine first.");
+		}
 	}
 };
 
@@ -73,4 +86,16 @@ if(worthALook){
 	console.log("You should really pass on the " + fiat.make + " " + fiat.model);
 }
 
+
+
+// fiat.drive();
+
+fiat.start();
+console.log(fiat.started);
+
 fiat.drive();
+
+// fiat.stop();
+// console.log(fiat.started);
+
+// fiat.drive();
