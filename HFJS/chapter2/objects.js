@@ -15,7 +15,8 @@ var caddi = {
 	year: 1955,
 	color: "tan",
 	passangers: 5,
-	milage: 12892
+	milage: 12892,
+	started: false
 };
 
 // The dog object
