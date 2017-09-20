@@ -61,6 +61,7 @@ if(worthALook){
 	console.log("You should really pass on the " + cadi.make + " " + cadi.model);
 }
 
+
 var worthALook = prequal(fiat);
 // console.log(worthALook);
 if(worthALook){
