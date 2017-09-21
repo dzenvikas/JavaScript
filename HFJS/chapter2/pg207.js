@@ -97,8 +97,10 @@ taxi.start();
 taxi.drive();
 taxi.stop();
 
-
-
+// for-in iterator to display all the properties of chevy object
+for(var prop in chevy){
+	console.log(prop + " : " + chevy[prop]);
+}
 
 
 
